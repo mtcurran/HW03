@@ -7,8 +7,13 @@
 # Exercise 1
 # When you submit only include your final function: compare
 
-
-
+def compare(x, y):
+    if x > y:
+        return 1
+    elif x == y:
+        return 0
+    elif x < y:
+        return -1
 
 
 ################################################################################
@@ -16,7 +21,10 @@
 # When you submit only include your final function: hypotenuse
 # Do develop incrementally. Do not share here.
 
+import math
 
+def hypotenuse(a, b):
+    return (math.sqrt((a**2)+(b**2)))
 
 
 
@@ -24,7 +32,11 @@
 # Exercise 3
 # When you submit only include your final function: is_between
 
-
+def is_between(x, y, z):
+    if x <= y and y <= z:
+        return True
+    else:
+        return False
 
 
 
@@ -32,6 +44,7 @@
 # Exercise 6
 # When you submit only include your final function: is_palindrome
 
+def is_palindrome(s):
 
 
 
